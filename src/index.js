@@ -7,6 +7,18 @@ import Amplify from "aws-amplify";
 import awsExports from "./aws-exports";
 Amplify.configure(awsExports);
 
+/**
+ * from https://docs.amplify.aws/start/getting-started/data-model/q/integration/react
+ * Now that you’ve created and configured a React app and initialized a new Amplify project, 
+ * you can add a feature. The first feature you will add is an API.
+ * The Amplify CLI supports creating and interacting with two types of API categories: REST and GraphQL.
+ * The API you will be creating in this step is a GraphQL API using AWS AppSync (a managed GraphQL service) and the database will be Amazon DynamoDB (a NoSQL database).
+ * 
+ * Add a GraphQL API to your app and "automatically provision a database" by running the following command from 
+ * the root of your application directory: amplify add api
+ * 
+ */
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
