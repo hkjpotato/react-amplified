@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Amplfiy, { API, graphqlOperation } from 'aws-amplify';
 import { createTodo } from './graphql/mutations'; // wow the graph folder is auto generated
 import { listTodos } from './graphql/queries';
+import { withAuthenticator } from '@aws-amplify/ui-react'
 
 import awsExports from './aws-exports';
 Amplfiy.configure(awsExports);
@@ -86,4 +87,5 @@ const styles = {
 }
 
 
-export default App;
+export default withAuthenticator(App)
+
