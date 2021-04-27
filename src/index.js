@@ -30,6 +30,11 @@ Amplify.configure(awsExports);
  * - a dynamoDB table created: Todo-7jfbndkihng4bnm75hqffbfhgm-dev
  * - in amplify console, in "backend environments" categories added: API
  * - in appsync console, a new api is created with same name, click into it can see Schema/DataSource/Queries etc
+ * 
+ * 
+ * amplify add auth
+ * --
+ * after running this several configs under amplfiy/ are updated
  */
 
 ReactDOM.render(

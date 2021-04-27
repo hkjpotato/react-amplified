@@ -10,6 +10,11 @@
       "StackName": "amplify-reactamplfiedkj-dev-144944",
       "StackId": "arn:aws:cloudformation:us-west-2:756269256288:stack/amplify-reactamplfiedkj-dev-144944/577844f0-a789-11eb-9ccd-0a133869c3b9",
       "AmplifyAppId": "d3pbm33wizoirv"
+    },
+    "categories": {
+      "auth": {
+        "reactamplfiedkj07985f76": {}
+      }
     }
   }
 }
