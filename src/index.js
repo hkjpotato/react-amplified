@@ -17,6 +17,19 @@ Amplify.configure(awsExports);
  * Add a GraphQL API to your app and "automatically provision a database" by running the following command from 
  * the root of your application directory: amplify add api
  * 
+ * amplify add api
+ * 
+ * A type decorated with the @model directive will 
+ * - scaffold out the database table for the type (Todo table), 
+ * - the schema for CRUD (create, read, update, delete) and list operations, 
+ * - and the GraphQL resolvers needed to make everything work together.
+ * 
+ * amplify push
+ * --
+ * after running the command I see 
+ * - a dynamoDB table created: Todo-7jfbndkihng4bnm75hqffbfhgm-dev
+ * - in amplify console, in "backend environments" categories added: API
+ * - in appsync console, a new api is created with same name, click into it can see Schema/DataSource/Queries etc
  */
 
 ReactDOM.render(
