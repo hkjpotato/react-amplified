@@ -35,6 +35,20 @@ Amplify.configure(awsExports);
  * amplify add auth
  * --
  * after running this several configs under amplfiy/ are updated
+ * 
+ * amplify push
+ * 
+ * 
+ * 
+ * Current Environment: dev
+ * 
+ * | Category | Resource name           | Operation | Provider plugin   |
+ * | -------- | ----------------------- | --------- | ----------------- |
+ * | Auth     | reactamplfiedkj07985f76 | Create    | awscloudformation |
+ * | Api      | reactamplifiedkjapi1    | No Change | awscloudformation |
+ * 
+ * after this I can see new categories added in amplify console
+ * a new user pool added in cognito console
  */
 
 ReactDOM.render(
